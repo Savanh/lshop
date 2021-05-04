@@ -3,7 +3,7 @@
         <a class="navbar-brand" href="/">lshop app</a>
         <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link" href="/help">Help</a>
+                <a class="nav-link" href="{{ route('help') }}">Help</a>
             </li>
             <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
         </ul>
