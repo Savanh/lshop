@@ -2,8 +2,18 @@
 <html>
   <head>
     <title>@yield('title','Lshop')</title>
+    <link rel='stylesheet' href='/css/app.css'>
   </head>
   <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="nav-brand" href="/">Lshop App</a>
+    <ul class="navbar- justify-content-end">
+      <li class="nav-item"><a class="nav-link" href="/help">帮助</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">登录</a></li>
+    </ul>
+  </div>
+  </nav>
   
     @yield('content')
   </body>
